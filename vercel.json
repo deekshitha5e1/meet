@@ -1,5 +1,5 @@
 {
-  "installCommand": "cd Meetings/meetings-hosting/shnoor-meetings-frontend && npm ci",
+  "installCommand": "cd Meetings/meetings-hosting/shnoor-meetings-frontend && npm install --include=dev",
   "buildCommand": "cd Meetings/meetings-hosting/shnoor-meetings-frontend && npm run build",
   "outputDirectory": "Meetings/meetings-hosting/shnoor-meetings-frontend/dist",
   "rewrites": [
